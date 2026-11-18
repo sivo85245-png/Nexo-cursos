@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="form-shell"><span class="eyebrow">{{ eyebrow }}</span><h1>{{ title }}</h1><form method="post" class="stack">{% csrf_token %}{{ form.as_p }}<button class="button">{{ button }}</button></form></section>{% endblock %}
